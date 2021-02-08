@@ -1,13 +1,13 @@
 {
-  "name": "my-first-github-app",
+  "name": "github-app",
   "version": "1.0.0",
   "private": true,
-  "description": "A Probot app",
-  "author": "Mayank Goyal <heromayank2@gmail.com>",
+  "description": "My First Github App with Probot",
+  "author": "Nirav Chavda <niravdchavda@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/heromayank2/POGO.git",
-  "homepage": "https://github.com/heromayank2/POGO",
-  "bugs": "https://github.com/heromayank2/POGO/issues",
+  "repository": "https://github.com/nirav-chavda/GithubApp.git",
+  "homepage": "https://github.com/nirav-chavda/GithubApp",
+  "bugs": "https://github.com/nirav-chavda/GithubApp/issues",
   "keywords": [
     "probot",
     "github",
@@ -17,8 +17,6 @@
     "dev": "nodemon",
     "start": "probot run ./index.js",
     "lint": "standard --fix",
-    "test": "jest && standard",
-    "test:watch": "jest --watch --notify --notifyMode=change --coverage"
   },
   "dependencies": {
     "probot": "^9.5.3"
@@ -44,8 +42,5 @@
       ".env",
       "."
     ]
-  },
-  "jest": {
-    "testEnvironment": "node"
   }
 }
